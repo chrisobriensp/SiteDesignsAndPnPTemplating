@@ -1,0 +1,7 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=cobgenstorage;AccountKey=wE9Ne3TAhDZwFjOZJyxIdKfV0eiJe0e84YudojjgjPN5sDSxfV6v2xFxwNOFkNNwg/Txwpi0ylUj2GPLalRlwA==;EndpointSuffix=core.windows.net",
+    "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=cobgenstorage;AccountKey=wE9Ne3TAhDZwFjOZJyxIdKfV0eiJe0e84YudojjgjPN5sDSxfV6v2xFxwNOFkNNwg/Txwpi0ylUj2GPLalRlwA==;EndpointSuffix=core.windows.net"
+  }
+}
