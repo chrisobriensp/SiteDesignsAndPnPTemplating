@@ -1,0 +1,61 @@
+﻿<?xml version="1.0"?>
+<pnp:Provisioning
+  xmlns:pnp="http://schemas.dev.office.com/PnP/2018/01/ProvisioningSchema" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="http://schemas.dev.office.com/PnP/2018/01/ProvisioningSchema https://raw.githubusercontent.com/OfficeDev/PnP-Provisioning-Schema/master/OfficeDevPnP.ProvisioningSchema/ProvisioningSchema-2018-01.xsd" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=2.22.1801.0, Culture=neutral, PublicKeyToken=3751622786b357c2" />
+  <pnp:Templates ID="COB-TEMPLATES">
+    <pnp:ProvisioningTemplate ID="COB-TEAMSITE" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">
+      <pnp:RegionalSettings AdjustHijriDays="0" AlternateCalendarType="None" CalendarType="Gregorian" Collation="25" FirstDayOfWeek="Monday" FirstWeekOfYear="0" LocaleId="2057" ShowWeeks="false" Time24="false" TimeZone="2" WorkDayEndHour="5:00PM" WorkDays="62" WorkDayStartHour="8:00AM" />
+      <pnp:ClientSidePages>
+        <pnp:ClientSidePage PageName="COBHome.aspx" Layout="Home" Publish="true" EnableComments="false">
+          <pnp:Sections>
+            <pnp:Section Order="1" Type="OneColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="Text" Order="1" Column="1">
+                  <pnp:CanvasControlProperties>
+                    <pnp:CanvasControlProperty Key="Text" Value="Home page provisioned by PnP!" />
+                  </pnp:CanvasControlProperties>
+                </pnp:CanvasControl>
+              </pnp:Controls>
+            </pnp:Section>
+            <pnp:Section Order="2" Type="TwoColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="NewsFeed" Order="1" Column="1">
+                </pnp:CanvasControl>
+                <pnp:CanvasControl WebPartType="SiteActivity"  Order="2" Column="2">
+                </pnp:CanvasControl>
+              </pnp:Controls>
+            </pnp:Section>
+            <pnp:Section Order="3" Type="OneColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="QuickLinks" Order="1" Column="1">
+                </pnp:CanvasControl>
+              </pnp:Controls>
+            </pnp:Section>
+          </pnp:Sections>
+        </pnp:ClientSidePage>
+      </pnp:ClientSidePages>
+      <pnp:PropertyBagEntries>
+        <pnp:PropertyBagEntry Key="CreatedFromProvisioning" Value="True" Overwrite="true" />
+      </pnp:PropertyBagEntries>
+      <pnp:ContentTypes>
+        <pnp:ContentType ID="0x010100A97787C3E436254EB52A40F0E8CE610B"
+        Name="General document"
+        Description="For general documents"
+        Group="COB Content Types">
+        </pnp:ContentType>
+      </pnp:ContentTypes>
+      <pnp:Lists>
+        <pnp:ListInstance Title="COB Documents" TemplateType="101" Url="COBDocuments" RemoveExistingContentTypes="true">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x010100A97787C3E436254EB52A40F0E8CE610B" Default="true"/>
+          </pnp:ContentTypeBindings>
+        </pnp:ListInstance>
+      </pnp:Lists>
+      <pnp:WebSettings
+        RequestAccessEmail="cob@chrisobrien.com"
+        WelcomePage="SitePages/COBHome.aspx" />
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>
