@@ -1,6 +1,6 @@
 # COB resources for SharePoint Site Designs
 
-Please see accompanying blog post - TODO: LINK
+Please see accompanying blog post - <a href="https://cob-sp.com/Site-Designs-PnP-1">https://cob-sp.com/Site-Designs-PnP-1</a>
 
 ## This project includes:
 
