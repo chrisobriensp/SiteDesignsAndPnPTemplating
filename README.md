@@ -18,15 +18,22 @@ The Flow which links the Site Design and PnP side of things is *not* included, s
 
 ## The setup process
 
-Please see the accompanying blog post - TODO: LINK.
+Please see the accompanying blog post - <a href="https://cob-sp.com/Site-Designs-PnP-1">https://cob-sp.com/Site-Designs-PnP-1</a>
 
 ## The result
 
 Once everything is deployed, you should have a situation where sites can be created from your site design, with the site design **and** PnP template being applied. :sparkles:
 
-TODO: IMAGES.
+![User creating site with Site Design - step 1](https://3.bp.blogspot.com/-OpgI7GBlb6o/XFByhmVCovI/AAAAAAAAF_0/9lVgYq3XouEV0XOxciN8il5WlUIPqi1CgCLcBGAs/s1600/CreateSite1.png)
 
+![User creating site with Site Design - step 2](https://1.bp.blogspot.com/-EddWdkcyo5M/XFByhYBWFWI/AAAAAAAAF_s/xi3KMhuUqmEvQK96ex8nyrNC_4GmSHExQCLcBGAs/s320/CreateSite2.png)
 
+![User creating site with Site Design - step 3](https://1.bp.blogspot.com/-hAYh2Q8YC5A/XFByhZmpOCI/AAAAAAAAF_w/MLYI29Ieih8RKyP1WY9pOQZEfUK1enrPwCLcBGAs/s320/CreateSite3.png)
 
+![User creating site with Site Design](https://4.bp.blogspot.com/-Sj67mfqry6I/XFBvujtk66I/AAAAAAAAF_Q/AOYq9mjNEx0Ot9F1MnFRxQC9vm1CiRQvgCLcBGAs/s320/Result2.png)
 
+![Site Design being applied](https://4.bp.blogspot.com/-n6dOz9W3AHc/XFBvtzcC2DI/AAAAAAAAF_I/dXdx8ImEtvUwgUwV_ytgRqDTTk9vPXM9ACLcBGAs/s320/Result1.png)
 
+Finally, the created site is ready, with both the Site Design and PnP template being applied (with an eye-watering modern theme in this case!) All document libraries, content types, navigation links, and any other items being provisioned will be there:
+
+![Resulting site](https://2.bp.blogspot.com/-0AXVXIR1sl4/XFBvt98sUwI/AAAAAAAAF_E/y97neGl-mYc3h27l-2aMJH9pXJiEYkq_wCLcBGAs/s320/Result%2B-%2B700.png)
